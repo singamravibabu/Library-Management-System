@@ -4,7 +4,7 @@ import mysql.connector
 DB_CONFIG = {
     "host": "localhost",  # Change if using a remote server
     "user": "root",  # Change if using a different MySQL user
-    "password": "Test@1234",  # Update with your MySQL password
+    "password": "kamal",  # Update with your MySQL password
     "database": "library_management"
 }
 
