@@ -4,7 +4,7 @@ import mysql.connector
 DB_CONFIG = {
     "host": "localhost",  # Change if using a remote server
     "user": "root",  # Change if using a different MySQL user
-    "password": "kamal",  # Update with your MySQL password
+    "password": "Test@1234",  # Update with your MySQL password
     "database": "library_management"
 }
 
@@ -17,6 +17,7 @@ def get_db_connection():
     except mysql.connector.Error as err:
         print(f"Error: {err}")
         return None
+    
 
 # Test the connection
 if __name__ == "__main__":
