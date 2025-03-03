@@ -135,8 +135,18 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'library_management',
         'USER': 'root',  # Change if using a different user
-        'PASSWORD': 'Mydream1/',  # Update with your MySQL password
+        'PASSWORD': 'your_password',  # Update with your MySQL password
         'HOST': 'localhost',
         'PORT': '3306',
     }
 }
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'library',
+    'rest_framework',  # Django REST Framework
+]
