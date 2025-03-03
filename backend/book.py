@@ -1,6 +1,12 @@
 
 # This file is managed by Student 1
-from database.db_connection import get_db_connection
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from backend.database.db_connection.book import get_db_connection
+
+
 
 class Book:
     def __init__(self, title, author, isbn, total_copies):
