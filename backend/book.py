@@ -1,4 +1,3 @@
-
 # This file is managed by Student 1
 import sys
 import os

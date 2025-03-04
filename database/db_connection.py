@@ -17,6 +17,7 @@ def get_db_connection():
     except mysql.connector.Error as err:
         print(f"Error: {err}")
         return None
+    
 
 # Test the connection
 if __name__ == "__main__":
